@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="LOG_PATTERN">%d{HH:mm:ss.SSS} ${hostName} [%t] %c{1.} %p: %m%n</Property>
+    </Properties>
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <RollingFile name="LogToFile"
+                     fileName="user-service.log"
+                     filePattern="archive/user-service-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name = "tr.com.example" level="info">
+            <AppenderRef ref="LogToFile" level="info"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="LogToConsole" level ="error"/>
+            <AppenderRef ref="LogToFile" level ="error"/>
+        </Root>
+    </Loggers>
+</Configuration>

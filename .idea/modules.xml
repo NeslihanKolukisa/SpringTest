@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-cache/user-cache.iml" filepath="$PROJECT_DIR$/user-service-parent/user-cache/user-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-dao/user-dao.iml" filepath="$PROJECT_DIR$/user-service-parent/user-dao/user-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-document/user-document.iml" filepath="$PROJECT_DIR$/user-service-parent/user-document/user-document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-rest/user-rest.iml" filepath="$PROJECT_DIR$/user-service-parent/user-rest/user-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-service-parent.iml" filepath="$PROJECT_DIR$/user-service-parent/user-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-parent/user-socket/user-socket.iml" filepath="$PROJECT_DIR$/user-service-parent/user-socket/user-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ymh412-proje.iml" filepath="$PROJECT_DIR$/.idea/ymh412-proje.iml" />
+    </modules>
+  </component>
+</project>

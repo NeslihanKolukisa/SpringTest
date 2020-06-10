@@ -1,0 +1,3 @@
+tr\com\example\user\dao\custom\CustomUsersRepository.class
+tr\com\example\user\dao\custom\CustomUsersRepositoryImpl.class
+tr\com\example\user\dao\UsersRepository.class

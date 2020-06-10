@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="user-rest:war">
+    <output-path>$PROJECT_DIR$/user-service-parent/user-rest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>user-rest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="user-rest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="user-rest:war exploded" />
+    </root>
+  </artifact>
+</component>

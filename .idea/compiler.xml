@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-socket" />
+        <module name="user-cache" />
+        <module name="user-dao" />
+        <module name="user-document" />
+        <module name="user-rest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rookie-react" target="1.5" />
+      <module name="user-cache" target="1.8" />
+      <module name="user-dao" target="1.8" />
+      <module name="user-document" target="1.8" />
+      <module name="user-rest" target="8" />
+      <module name="user-service-parent" target="1.8" />
+      <module name="user-socket" target="1.8" />
+      <module name="ymh412-proje" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="user-cache" options="-parameters" />
+      <module name="user-dao" options="-parameters" />
+      <module name="user-document" options="-parameters" />
+      <module name="user-rest" options="-parameters" />
+      <module name="user-socket" options="-parameters" />
+    </option>
+  </component>
+</project>
